@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Web Family</title>
+  </head>
+  <body>
+    <nav class="navigator-nav">
+      <div class="title-nav">item </div>
+    </nav>
+    <center>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide div-slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active imagenes-slider">
+          <img loading="lazy" class="d-block w-100" src="images/Carrusel_1.jpeg" alt="First slide" />
+          <div class="carousel-caption d-none d-md-block slide-parrafo">
+            <h3>DE OTUZCO A LOS ESTADOS UNIDOS DE AMERICA</h3>
+            <h6>No ha sido fácil, pero Dios siempre nos bendijo y nos sigue bendiciendo</h6>
+          </div>
+        </div>
+        <div class="carousel-item imagenes-slider">
+          <img loading="lazy" class="d-block w-100" src="images/Carrusel_2.jpeg" alt="Second slide" />
+          <div class="carousel-caption d-none d-md-block slide-parrafo">
+            <h5>Esto es un h5</h5>
+            <p>parrafooooooooooooasasasasasasasasas</p>
+          </div>
+        </div>
+        <div class="carousel-item imagenes-slider">
+          <img loading="lazy" class="d-block w-100" src="images/Carrusel_2.jpeg" alt="Third slide" />
+          <div class="carousel-caption d-none d-md-block slide-parrafo">
+            <h5>Esto es un h5</h5>
+            <p>parrafooooooooooooasasasasasasasasas</p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"`
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </center>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="" class="img_modal" id="img_modal" alt="">
+          </div>
+          <div class="modal-footer">
+            <p class="contenedor-parrafo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+              cupiditate nihil quam excepturi, quaerat illum facere mollitia earum
+              ducimus quos provident aspernatur fuga odit alias deleniti dolore
+              quisquam fugit consequatur.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <center>
+      <div class="bloque-images">
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222119.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222215.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222241.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222310.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222342.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222418.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222444.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222507.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222551.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222645.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222725.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_222938.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_223011.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_223039.jpg" alt="" />
+        </div>
+        <div class="contenedor-imagenes">
+          <img loading="lazy" onclick="view_img(this)" id="img" class="contenedor-image" data-toggle="modal" data-target="#exampleModal" src="images/SI_20200506_223107.jpg" alt="" />
+        </div>
+      </div>
+    </center> 
+
+    <footer class="footer"></footer>
+
+    <script src="./js/javacript.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
