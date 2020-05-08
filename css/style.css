@@ -166,7 +166,7 @@ nav .title-nav {
   }
 }
 
-@media screen and (min-width: 1441px){
+@media screen and (min-width: 1441px) and (max-width: 3000px){
   .bloque-images {
     display: grid;
     grid-template-columns: repeat(5, 6fr);
