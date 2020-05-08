@@ -90,6 +90,13 @@ nav .title-nav {
 }
 
 @media screen and (min-width: 359px) and (max-width: 361px) {
+  .bloque-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, auto);
+    gap: 1px;
+  }
+
   .contenedor-imagenes img {
     width: 119px; 
   } 
@@ -100,6 +107,13 @@ nav .title-nav {
 }
 
 @media screen and (min-width: 410px) and (max-width: 411px) {
+  .bloque-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, auto);
+    gap: 1px;
+  }
+
   .contenedor-imagenes img {
     width: 136px; 
   } 
@@ -110,6 +124,13 @@ nav .title-nav {
 }
 
 @media screen and (min-width: 412px) and (max-width: 415px) {
+  .bloque-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, auto);
+    gap: 1px;
+  }
+  
   .contenedor-imagenes img {
     width: 136px; 
   } 
@@ -120,12 +141,6 @@ nav .title-nav {
 }
 
 @media screen and (min-width: 416px) and (max-width: 426px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: #f6f6f6;
-  }
   .bloque-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
